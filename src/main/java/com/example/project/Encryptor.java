@@ -68,6 +68,9 @@ public class Encryptor {
         return decryptedMessage;
     }
     public static void main(String[] args) {
-        System.out.println(decryptMessage("itlg=rpcn=wy i= rAl=ocSi tnCa  ePrtt Atxal  ehayotwnmw  i tsagr ieioehdrfrtio a   e noygeinmar   sesershevoetcafm ah  sp edssItea ", 5));
+        System.out.println(encryptMessage("Well hello there people and things", 2));
+        System.out.println(decryptMessage("aPiSr=c r a= ltkb=Ilacuu", 6));
+
+
     }
 }
